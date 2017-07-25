@@ -1,0 +1,9 @@
+{application,discuss,
+             [{description,"discuss"},
+              {modules,['Elixir.Discuss','Elixir.Discuss.Web']},
+              {registered,[]},
+              {vsn,"0.0.1"},
+              {mod,{'Elixir.Discuss',[]}},
+              {applications,[kernel,stdlib,elixir,phoenix,phoenix_pubsub,
+                             phoenix_html,cowboy,logger,gettext,phoenix_ecto,
+                             postgrex,ueberauth,ueberauth_github]}]}.
